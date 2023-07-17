@@ -1,0 +1,751 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    color: #616368;
+    box-sizing: border-box;
+}
+
+.content{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    height: 105px;
+    align-items: center;
+}
+
+.logo{
+    color: #fcae61;
+    margin-right: 365px;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: bold;
+    display: inline-block;
+}
+
+.logo-span{
+    color: #242f51;
+}
+
+.header-links{
+    margin-right: 50px;
+    width: 465px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.link-item a{
+    font-weight: 500;
+    color: #242f51;
+    text-decoration: none;
+    transition: color .13s linear;
+}
+
+.link-item a:hover{
+    color: #fcae61;
+}
+
+.button{
+    display: inline-block;
+}
+
+.button button{
+    border: none;
+    padding: 17px 45px;
+    border-radius: 28.5px;
+    background-color: #2500f9;
+}
+
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+/* Intro */
+
+.intro{
+    background-color: #fdfdfe;
+    position: relative;
+    height: 830px;
+    background: url('../img/intro-bg.png') no-repeat 0 100%;
+    background-size: 100%;
+}
+
+.intro_inner{
+    position: absolute;
+    top: 25%;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.upper-title{
+    background: url('../img/tick.png') no-repeat;
+    width: 314px;
+    padding: 3px 0 3px 48px;
+    font-weight: 500;
+    background-color: #e2eaed;
+    border-radius: 90px;
+    position: relative;
+    font-size: 18px;
+    color: #242f51;
+}
+
+.title{
+    margin: 0;
+    width: 522px;
+    color: #242f51;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.subtitle{
+    margin-bottom: 30px;
+    width: 486px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.intro-buttons{
+    z-index: 10;
+    position: relative;
+}
+
+.watch{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #2500f9;
+    font-weight: 600;
+}
+
+.intro_bg-phone{
+    width: 400px;
+    margin-left: 60%;
+    display: inline-block;
+}
+
+.intro_blue{
+    margin-left: 13px;
+    top: -480px;
+    left: -330px;
+    position: absolute;
+    z-index: -3;
+}
+
+.intro_red{
+    left: 10px;
+    top: -500px;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Companies */
+
+.companies{
+    height: 270px;
+}
+
+.comapnies_text{
+    padding-top: 120px;
+    margin: 0 0 35px 0;
+    text-align: center;
+    color: #242f51;
+}
+
+.companies_logo{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Features */
+
+.features{
+    height: 960px;
+}
+
+.features-inner{
+    position: relative;
+    width: 430px;
+    margin-left: auto;
+    margin-right: 15%;
+}
+
+.text{
+    padding-top: 205px;
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 700;
+}
+
+.description{
+    margin: 20px 0 90px 0;
+}
+
+.feature-item{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.feature-item img{
+    display: inline-block;
+}
+
+.item-text{
+    margin-left: 33px;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.prototyping-img{
+    margin: 0 15px;
+}
+
+.performance{
+    color: #f55767;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.prototyping{
+    color: #2563ff;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.vector{
+    color: #40975f;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.features-bg{
+    position: absolute;
+    left: -165%;
+    top: 150px;
+}
+
+/* Jackpots */
+
+.jackpots{
+    height: 640px;
+}
+
+.jackpots_titles{
+    padding-top: 135px;
+    margin-left: 55px;
+    width: 970px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jackpots_titles img{
+    display: inline-block;
+}
+
+.jackpots_titles div{
+    width: 430px;
+    padding: 0;
+    display: inline-block;
+}
+
+.jackpots_titles .text{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.jackpots_titles .description{
+    height: 70px;
+    margin: 0;
+}
+
+.jackpot_items{
+    margin: 115px 0 0 55px;
+    width: 1025px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jackpot-item{
+    width: 260px;
+    display: inline-block;
+}
+
+.jackpot-item .performance, .prototyping, .vector{
+    margin: 27px 0 10px 0;
+}
+
+/* Designed */
+
+.designed{
+    height: 880px;
+}
+
+.designed_text{
+    position: relative;
+    padding-top: 250px;
+    margin-left: auto;
+    margin-right: 115px;
+    width: 410px;
+    height: 340px;
+}
+
+.designed_text .description{
+    margin-bottom: 35px;
+}
+
+.designed_text .text{
+    padding: 0;
+}
+
+.designed_text button{
+    padding: 17px 40px;
+}
+
+.designed-bg{
+    position: absolute;
+    top: 115px;
+    left: -169%;
+}
+
+/* Choose */
+
+.choose{
+    height: 970px;
+}
+
+.choose .text{
+    text-align: center;
+    width: 438px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.choose .description{
+    width: 635px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.pluses{
+    text-align: center;
+    margin: 90px auto 0;
+    width: 950px;
+}
+
+.pluses_coloumn1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pluses_coloumn2{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pluses_item{
+    width: 265px;
+}
+
+.pluses_title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #242f51;
+    margin: 27px 0 10px 0;
+}
+
+/* Ultimate */
+
+.ultimate{
+    height: 1015px;
+}
+
+.ultimate-inner{
+    position: relative;
+    height: 850px;
+    width: 635px;
+    margin-left: 45px;
+}
+
+.ultimate-inner .text{
+    width: 325px;
+    padding: 0;
+}
+
+.ultimate-inner .description{
+    width: 400px;
+}
+
+.ultimate-inner .pluses{
+    width: 625px;
+    text-align: left;
+    margin: 60px 0 52px 0;
+}
+
+.ultimate_bg{
+    position: absolute;
+    left: 609px;
+    top: 150px;
+}
+
+/* Prices */
+
+.prices{
+    height: 1200px;
+}
+
+.prices .text{
+    width: 580px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.prices .description{
+    width: 635px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.prices_types{
+    font-weight: medium;
+    margin: 83px auto;
+    border: 2px solid #ebebeb;
+    width: 285px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.monthly{
+    padding-left: 38px;
+    text-decoration: none;
+    color: #616368;
+    transition: font-weight .08s linear, color .08s linear, padding .08s linear;
+}
+
+.monthly:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #2500f9;
+    padding: 15px 35px;
+    margin-left: 2px;
+}
+
+.annually{
+    padding-right: 38px;
+    text-decoration: none;
+    color: #616368;
+    transition: font-weight .08s linear, color .08s linear, padding .08s linear;
+}
+
+.annually:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #2500f9;
+    padding: 15px 35px;
+    margin-right: 2px;
+}
+
+.prices_boxes{
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.business, .pro{
+    width: 317px;
+    height: 554px;
+    border: 2px solid #ebebeb;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.pro{
+    height: 605px;
+}
+
+.price{
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #242f51;
+}
+
+.price-span{
+    font-weight: normal;
+    font-size: 18px;
+    color: #616368;
+}
+
+.price_type{
+    height: 41px;
+    margin-bottom: 80px;
+}
+
+.price_title{
+    color: #242f51;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.advantages div{
+    margin-bottom: 30px;
+}
+
+.advantages{
+    margin-bottom: 40px;
+}
+
+.start{
+    display: block;
+    text-decoration: none;
+    color: #2500f9;
+    margin-top: 30px;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+/* Client */
+
+.client{
+    height: 650px;
+}
+
+.client-inner{
+    position: relative;
+    width: 575px;
+    height: 590px;
+    margin-left: auto;
+}
+
+.client_title{
+    width: 500px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #242f51;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.client_description{
+    width: 500px;
+    margin-bottom: 35px;
+}
+
+.user-friendly{
+    font-size: 20px;
+    color: #242f51;
+    margin: 20px 0 30px 0;
+    font-weight: 600;
+}
+
+.client-example{
+    width: 585px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client-example_left{
+    display: flex;
+    align-items: center;
+}
+
+.client-example_text{
+    height: 50px;
+    margin-left: 30px;
+}
+
+.client-name{
+    font-size: 18px;
+    color: #242f51;
+    font-weight: 600;
+}
+
+.client-profession{
+    font-size: 18px;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+}
+
+.arrow2{
+    background-color: #eff3f8;
+    padding: 14px 16px;
+    border-radius: 90px;
+}
+
+.arrow1{
+    border: 2px solid #eff3f8;
+    padding: 14px 16px;
+    border-radius: 90px;
+}
+
+.client-bg{
+    position: absolute;
+    left: -139%;
+    top: 90px;
+}
+
+/* faq */
+
+.faq{
+    height: 850px;
+}
+
+.faq .text{
+    font-size: 40px;
+    text-align: center;
+}
+
+.faq .description{
+    text-align: center;
+    width: 635px;
+    margin: 30px auto 0; 
+}
+
+.questions{
+    margin-top: 100px;
+}
+
+.faq-item{
+    margin: 0 0 20px 160px;
+    width: 870px;
+}
+
+.faq-title{
+    cursor: pointer;
+    background: url('../img/Plus.png') no-repeat 100% 5px;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.faq-input{
+    appearance: none;
+}
+
+.faq-text{
+    margin: 0 0 60px 0;
+    width: 815px;
+    display: none;
+}
+
+.faq-input:checked ~ .faq-text{
+    margin-top: 30px;
+    display: block;
+}
+
+.faq-input:checked + .faq-title{
+    background: none;
+    font-weight: 650;
+}
+
+.download{
+    margin: 190px 0 20px 15px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #242f51;
+}
+
+.under-download{
+    font-weight: normal;
+    color: #616368;
+    font-size: 15px;
+    margin-left: 15px;
+    width: 640px;
+}
+
+.download-app{
+    position: relative;
+    margin: 45px 0 105px 15px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.faq-bg{
+    position: absolute;
+    top: -255px;
+    left: 535px;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 49px;
+    height: 532px;
+    background-color: #09142e;
+}
+
+.footer .logo-span{
+    color: #fff;
+}
+
+.footer .logo{
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding-top: 115px;
+}
+
+.footer .header-links{
+    display: flex;
+    margin: 50px auto 0;
+}
+
+.footer .link-item a{
+    color: #fff;
+}
+
+.footer .link-item a:hover{
+    color: #fcae61;
+}
+
+.footer-logos{
+    display: block;
+    margin: 50px auto 85px;
+}
+
+.copyright{
+    color: #363f55;
+    text-align: center;
+}
